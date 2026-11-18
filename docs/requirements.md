@@ -1,1 +1,9 @@
-My product turns on an LED when the temperature is outside of a preset temperature range. This serves as a visual warning it is out of range. The range can be changed and the temperature can be input by the user and will be classified as NORMAL or WARNING. Normal is in range and warning is not but the temperature readings can be saved on the program as well. It's organized linear and the components are a rasberry pi, a circuit and a desktop computer. The rasberry pi takes gets it code from a cloned version of github that is on the desktop and can be edited from the dekstop and the rasberry pi can update it's code if it is edited on the desktop.
+Project Requirements
+•	Lets the user input classroom temperature readings in Fahrenheit.
+•	Check if the entered temperature is within range of 68.0°F to 76.0°F.
+•	Print NORMAL when the temperature is within the range and WARNING when it is outside the range.
+•	Calculate and display the running average across all temperature readings entered during the session.
+•	Log every reading number, temperature, and status to data/temperature_log.csv.
+•	Update status.txt with the latest system status NORMAL or WARNING.
+•	Turn on a red LED wired to GPIO 17 when a WARNING occurs and turn it off when NORMAL.
+•	Give the user an option to change the minimum and maximum acceptable temperature limits.
